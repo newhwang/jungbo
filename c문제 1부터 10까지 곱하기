@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+    int i = 0, c = 1;
+
+    while (i < 10) {
+        i++;
+        c *= i;
+    }
+
+    printf("%d", c);  // 3628800
+
+    return 0;
+}
